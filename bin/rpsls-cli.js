@@ -20,3 +20,18 @@ if (args.h || args.help) {
     console.log('                    e.g {"player":"rock","opponent":"Spock","result":"lose"}');
     process.exit(0);
 }
+
+if (args.r || args.rules) {
+    console.log('Rules for teh Lizard-Spock Expansion of Rock Paper Scissors:');
+    console.log('  - Scissors CUTS Paper');
+    console.log('  - Paper COVERS Rock');
+    console.log('  - Rock SMOOSHES Lizard');
+    console.log('  - Lizard POISONS Spock');
+    console.log('  - Spock SMASHES Scissors');
+    console.log('  - Scissors DECAPITATES Lizard');
+    console.log('  - Lizard EATS Paper');
+    console.log('  - Paper DISPROVES Spock');
+    console.log('  - Spock VAPORIZES Rock');
+    console.log('  - Rock CRUSHES Scissors');
+    process.exit(0);
+}
