@@ -53,5 +53,5 @@ try {
     console.log('  - Scissors CUTS Paper');
     console.log('  - Paper COVERS Rock');
     console.log('  - Rock CRUSHES Scissors');
-    
+    process.exit(1);
 }
