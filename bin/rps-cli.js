@@ -20,3 +20,12 @@ if (args.h || args.help) {
     console.log('                  e.g {"player":"rock","opponent":"scissors","result":"win"}');
     process.exit(0);
 }
+
+if (args.r || args.rules) {
+    console.log('Rules for Rock Paper Scissors:');
+    console.log();
+    console.log('  - Scissors CUTS Paper');
+    console.log('  - Paper COVERS Rock');
+    console.log('  - Rock CRUSHES Scissors');
+    process.exit(0);
+}
