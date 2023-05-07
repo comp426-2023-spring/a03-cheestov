@@ -4,10 +4,6 @@
   "description": "rpsls executable",
   "main": "./lib/rpsls.js",
   "type": "module",
-  "bin": {
-    "node-rps": "./bin/rps-cli.js",
-    "node-rpsls": "rpsls-cli.js"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +15,10 @@
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a03-cheestov/issues"
+  },
+  "bin": {
+    "node-rps": "./bin/rps-cli.js",
+    "node-rpsls": "./bin/rpsls-cli.js"
   },
   "homepage": "https://github.com/comp426-2023-spring/a03-cheestov#readme",
   "dependencies": {
