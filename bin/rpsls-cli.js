@@ -22,7 +22,7 @@ if (args.h || args.help) {
 }
 
 if (args.r || args.rules) {
-    console.log('Rules for teh Lizard-Spock Expansion of Rock Paper Scissors:');
+    console.log('Rules for the Lizard-Spock Expansion of Rock Paper Scissors:');
     console.log('  - Scissors CUTS Paper');
     console.log('  - Paper COVERS Rock');
     console.log('  - Rock SMOOSHES Lizard');
@@ -52,7 +52,7 @@ try {
     console.log('                    e.g. {"player":"rock"}');
     console.log('  node-rpsls rock   Return JSON with results for RPSLS played against a simulated opponent.');
     console.log('                    e.g {"player":"rock","opponent":"Spock","result":"lose"}');
-    console.log('Rules for teh Lizard-Spock Expansion of Rock Paper Scissors:');
+    console.log('Rules for the Lizard-Spock Expansion of Rock Paper Scissors:');
     console.log('  - Scissors CUTS Paper');
     console.log('  - Paper COVERS Rock');
     console.log('  - Rock SMOOSHES Lizard');
